@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@layer components{
+  html{
+    font-family: arial,sans-serif;
+    --tw-bg-opacity: 1;
+    background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+  }
+  .flex-start {
+    @apply flex items-center justify-start;
+  }
+  
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+  
+  .flex-end {
+    @apply flex items-center justify-end
+  }
+  
+  .searcher{
+    @apply w-72 md:w-96 shadow appearance-none border rounded 
+    py-2 px-3 mt-1 mb-4 text-gray-700 leading-tight mx-auto;
+  }
+
+  .back{
+    width: 25vw;
+  }
+  
+  .link{
+    padding: 0 0.8rem;
+    margin: 2rem 0;
+    overflow:hidden;
+  }
+  .title{
+    font-size: 1.3rem;
+    line-height: 26px;
+    color: #34a853;
+    text-decoration: none;
+    padding: 0 0.8rem;
+    cursor:pointer;
+    font-weight: 500;
+    overflow:hidden;
+  }
+  .author{
+    font-size: 0.7rem;
+    color: #ea4335;
+    text-decoration: none;
+    padding: 0 0.8rem;
+    font-weight: 600;
+    overflow:hidden;
+  }
+  .url{
+    font-size: 0.8rem;
+    line-height: 26px;
+    text-decoration: none;
+    padding: 0 0.8rem;
+    --tw-text-opacity: 1;
+    color: rgb(55 65 81 / var(--tw-text-opacity));
+    overflow:hidden;
+  }
+  .comments{
+    font-size: 0.8rem;
+    line-height: 26px;
+    text-decoration: none;
+    padding: 0 0.8rem;
+    --tw-text-opacity: 1;
+    color: rgb(55 65 81 / var(--tw-text-opacity));
+    margin-bottom: 1.2rem;
+    overflow:hidden;
+  }
+  @media screen and (max-width: 600px) {
+    .title {
+      font-size:1rem;
+    }
+    .comments{
+      margin-bottom:0.5rem;
+    }
+  }
+  @media screen and (min-width: 1400px) {
+    
+    .back{
+      width: 30vw;
+      margin-right:8vw;
+    }
+  }
+} 
+@tailwind utilities;
