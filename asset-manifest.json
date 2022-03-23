@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CBSearch/static/css/main.a4bd8604.css",
+    "main.js": "/CBSearch/static/js/main.778ff38d.js",
+    "index.html": "/CBSearch/index.html",
+    "main.a4bd8604.css.map": "/CBSearch/static/css/main.a4bd8604.css.map",
+    "main.778ff38d.js.map": "/CBSearch/static/js/main.778ff38d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4bd8604.css",
+    "static/js/main.778ff38d.js"
+  ]
+}
